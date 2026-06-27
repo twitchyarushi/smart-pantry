@@ -1,0 +1,11 @@
+targets:
+  $default:
+    builders:
+      json_serializable:
+        generate_for:
+          exclude:
+            - lib/features/authentication/presentation/providers/*.dart
+            - lib/features/pantry/presentation/providers/*.dart
+            - lib/features/profile/presentation/providers/*.dart
+            - lib/features/recipes/presentation/providers/*.dart
+            - lib/features/shopping/presentation/providers/*.dart
