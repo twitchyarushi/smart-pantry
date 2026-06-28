@@ -10,7 +10,7 @@ class GeminiService {
   static final _instance = GeminiService._();
   factory GeminiService() => _instance;
 
-  static const _model = 'gemini-2.0-flash';
+  static const _model = 'gemini-2.5-flash';
   static const _ingredientPrompt =
       'Identify all food ingredients visible in this image. Return only JSON: {"ingredients": [{"name": "ingredient name", "quantity": 1, "unit": "piece", "category": "category name"}]}';
 
